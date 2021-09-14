@@ -5,7 +5,7 @@ const SteamCommunity = require("steamcommunity");
 const TradeOfferManager = require("steam-tradeoffer-manager");
 
 const sets_db = require('./sets_db.json');
-const config = require('config.js');
+const config = require('./config.js');
 
 const values = typeof Object.values == 'function' ? Object.values : (json) => {
     let array = [];
@@ -115,11 +115,11 @@ manager.on('newOffer', function(offer) {
             } else if (appid === 730) {}
         });
         var cardSets = sets.length;
-        var keys = keysAmount.length;
+        var keys_amount = keysAmount.length;
 
-        console.log(cardSets + " sets for " + keys + " keys | RATE: " + (cardSets / keys).toFixed(2) + " |");
+        console.log(cardSets + " sets for " + keys_amount + " keys | RATE: " + (cardSets / keys_amount).toFixed(2) + " |");
         if (keysAmount[0] === 440) {
-            if (cardSets / keys >= rates[keysAmount[0]]) {
+            if (cardSets / keys_amount >= rates[keysAmount[0]]) {
                 console.log("Accepting the offer because of rate better/equal than our rate (" + rates[keysAmount[0]] + ")");
                 offer.accept(err => {
                     if (err) {

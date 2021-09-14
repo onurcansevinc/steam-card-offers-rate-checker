@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/onurcansevinc/steam-cards-offers-rate-checker/issues"
   },
-  "homepage": "https://github.com/onurcansevinc/steam-cards-offers-rate-checker#readme"
+  "homepage": "https://github.com/onurcansevinc/steam-cards-offers-rate-checker#readme",
+  "dependencies": {
+    "request": "^2.88.2",
+    "steam-totp": "^2.1.1",
+    "steam-tradeoffer-manager": "^2.10.3",
+    "steam-user": "^4.19.12",
+    "steamcommunity": "^3.43.1"
+  }
 }
