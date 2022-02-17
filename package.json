@@ -1,5 +1,5 @@
 {
-  "name": "steam-cards-offers-rate-checker",
+  "name": "steam-card-offers-rate-checker",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/onurcansevinc/steam-cards-offers-rate-checker.git"
+    "url": "git+https://github.com/onurcansevinc/steam-card-offers-rate-checker.git"
   },
   "author": "onurcansevinc",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/onurcansevinc/steam-cards-offers-rate-checker/issues"
+    "url": "https://github.com/onurcansevinc/steam-card-offers-rate-checker/issues"
   },
-  "homepage": "https://github.com/onurcansevinc/steam-cards-offers-rate-checker#readme",
+  "homepage": "https://github.com/onurcansevinc/steam-card-offers-rate-checker#readme",
   "dependencies": {
     "request": "^2.88.2",
     "steam-totp": "^2.1.1",
